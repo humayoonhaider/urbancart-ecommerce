@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-heading: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+    --font-sans: 'Inter', sans-serif;
+    color-scheme: light;
+  }
+
+  :root.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    background-color: #f8fafc;
+    color: #0f172a;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark body {
+    background-color: #0b0f17;
+    color: #f8fafc;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.4);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.7);
+}
+
+/* Subtle glow utilities */
+.glow-accent {
+  box-shadow: 0 0 25px -5px rgba(37, 99, 235, 0.25);
+}
+
+.dark .glow-accent {
+  box-shadow: 0 0 30px -5px rgba(59, 130, 246, 0.3);
+}
+
+/* Smooth Image hover styles */
+img {
+  content-visibility: auto;
+}
+
+/* Print utilities */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

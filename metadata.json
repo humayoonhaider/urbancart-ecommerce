@@ -1,0 +1,6 @@
+{
+  "name": "UrbanCart - Modern E-Commerce Platform",
+  "description": "A sophisticated, production-grade frontend e-commerce concept project created by SH Web Studio featuring real-time spend analytics, responsive catalog, wishlist, dynamic cart, and simulated checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
