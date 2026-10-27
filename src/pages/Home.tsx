@@ -18,6 +18,8 @@ import {
 } from 'lucide-react';
 import { Badge } from '../components/Badge';
 import { SafeImage } from '../components/SafeImage';
+import { ImmersiveHero } from '../components/ImmersiveHero';
+import { ThreeDDivider } from '../components/ThreeDDivider';
 
 export const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -50,13 +52,7 @@ export const Home: React.FC = () => {
       <section className="relative overflow-hidden bg-slate-950 text-white min-h-[580px] sm:min-h-[660px] flex items-center">
         {/* Background lifestyle image with layered gradient overlay */}
         <div className="absolute inset-0 z-0">
-          <SafeImage
-            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=2000&q=80"
-            alt="Modern everyday essentials"
-            containerClassName="w-full h-full"
-            className="w-full h-full object-cover object-center opacity-25 mix-blend-luminosity scale-105"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/90 to-slate-900/60" />
+          <ImmersiveHero />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 w-full">
@@ -64,7 +60,7 @@ export const Home: React.FC = () => {
             {/* Tag / Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-400 text-xs font-semibold mb-6 backdrop-blur-md">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Curated Modern Lifestyle • SH Web Studio Demo</span>
+              <span>Curated Modern Lifestyle • Zenvex Demo</span>
             </div>
 
             {/* Headline */}
@@ -183,6 +179,8 @@ export const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <ThreeDDivider />
 
       {/* 3. FEATURED CATEGORIES SECTION */}
       <section id="categories" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full scroll-mt-24">

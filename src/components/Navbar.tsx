@@ -64,7 +64,7 @@ export const Navbar: React.FC = () => {
             <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-blue-600 text-white tracking-wider uppercase shadow-xs">
               Portfolio Concept
             </span>
-            <span>SH Web Studio Demo • Use promo code <strong className="text-white font-mono bg-slate-800 px-1.5 py-0.5 rounded border border-slate-700">URBAN10</strong> for 10% off</span>
+            <span>Zenvex Demo • Use promo code <strong className="text-white font-mono bg-slate-800 px-1.5 py-0.5 rounded border border-slate-700">URBAN10</strong> for 10% off</span>
           </div>
 
           <div className="flex items-center gap-4 text-[11px] text-slate-400">
@@ -94,7 +94,7 @@ export const Navbar: React.FC = () => {
                 <span className="w-2.5 h-2.5 rounded-full bg-blue-600 mb-1 animate-pulse" />
               </div>
               <span className="text-[10px] uppercase font-bold tracking-widest text-slate-400 group-hover:text-blue-500 transition-colors">
-                Concept by SH Web Studio
+                Concept by Zenvex
               </span>
             </Link>
 

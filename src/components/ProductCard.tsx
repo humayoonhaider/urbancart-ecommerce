@@ -123,7 +123,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, layout = 'gri
 
   // Grid layout
   return (
-    <div className="group relative flex flex-col bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/90 rounded-2xl overflow-hidden hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-blue-950/30">
+    <div className="group relative flex flex-col bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/90 rounded-2xl overflow-hidden hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl dark:hover:shadow-blue-950/30 [transform-style:preserve-3d] hover:[transform:rotateX(2deg)_rotateY(2deg)]">
       {/* Top Image Container */}
       <div className="relative aspect-square w-full bg-slate-100 dark:bg-slate-800/60 overflow-hidden">
         <Link to={`/product/${product.id}`} className="block w-full h-full">

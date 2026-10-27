@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             </div>
             <div>
               <h4 className="text-sm font-bold text-slate-900 dark:text-white font-heading">
-                Fictional Concept Project by SH Web Studio
+                Fictional Concept Project by Zenvex
               </h4>
               <p className="text-xs text-slate-500 dark:text-slate-400">
                 Crafted for portfolio demonstration, showcasing responsive design, real-time analytics, and client UX.
@@ -189,7 +189,7 @@ export const Footer: React.FC = () => {
         {/* Footer Bottom */}
         <div className="mt-14 pt-8 border-t border-slate-200/80 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
           <div className="flex items-center gap-2">
-            <span>&copy; 2026 UrbanCart — Concept Project by <strong>SH Web Studio</strong></span>
+            <span>&copy; 2026 UrbanCart — Concept Project by <strong>Zenvex</strong></span>
           </div>
 
           <div className="flex items-center gap-4">

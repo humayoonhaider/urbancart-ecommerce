@@ -50,7 +50,7 @@ export const Contact: React.FC = () => {
   const faqs = [
     {
       q: 'Is UrbanCart a real store?',
-      a: 'No. UrbanCart is a fictional portfolio concept project created by SH Web Studio to demonstrate modern frontend engineering, product filtering, responsive UI, real-time analytics, and checkout simulation.'
+      a: 'No. UrbanCart is a fictional portfolio concept project created by Zenvex to demonstrate modern frontend engineering, product filtering, responsive UI, real-time analytics, and checkout simulation.'
     },
     {
       q: 'Will my credit card be charged?',
@@ -220,7 +220,7 @@ export const Contact: React.FC = () => {
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-neutral-400">Location</span>
                 <div className="text-sm font-semibold text-neutral-900 dark:text-white">Pakistan — Demo Project</div>
-                <span className="text-xs text-neutral-500">Created by SH Web Studio</span>
+                <span className="text-xs text-neutral-500">Created by Zenvex</span>
               </div>
             </div>
 
@@ -239,7 +239,7 @@ export const Contact: React.FC = () => {
           <div className="bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-900/60 rounded-3xl p-6">
             <h4 className="text-sm font-bold text-blue-900 dark:text-blue-200 font-heading mb-1 flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-blue-600" />
-              <span>SH Web Studio Portfolio</span>
+              <span>Zenvex Portfolio</span>
             </h4>
             <p className="text-xs text-blue-800 dark:text-blue-300 leading-relaxed mt-1">
               UrbanCart is ready for client proposals, freelance demonstration, and instant production build deployments.
