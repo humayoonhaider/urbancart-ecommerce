@@ -1,6 +1,6 @@
-import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { PerspectiveCamera, Environment, ContactShadows, PresentationControls } from '@react-three/drei';
+import { EffectComposer, Bloom } from '@react-three/postprocessing';
 import { ThreeDNavbar } from '../components/ThreeDNavbar';
 import { ThreeDCart } from '../components/ThreeDCart';
 import { ThreeDDivider } from '../components/ThreeDDivider';
@@ -18,11 +18,14 @@ export const VirtualShop: React.FC = () => {
           <ThreeDCart />
           <group position={[0, 0, 0]}>
             <ThreeDDivider />
-            {/* Add more 3D products/sections here */}
           </group>
         </PresentationControls>
 
         <ContactShadows position={[0, -4, 0]} opacity={0.5} scale={20} blur={2} />
+        
+        <EffectComposer>
+          <Bloom luminanceThreshold={0.2} mipmapBlur intensity={1.5} />
+        </EffectComposer>
       </Canvas>
     </div>
   );

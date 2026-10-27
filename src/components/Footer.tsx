@@ -171,7 +171,7 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <span className="text-slate-500">Developer: SH Web Studio</span>
+                <span className="text-slate-500">Developer: Zenvex</span>
               </li>
               <li>
                 <span className="text-slate-500">Stack: React + Vite + Tailwind v4</span>

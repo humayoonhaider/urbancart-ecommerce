@@ -206,7 +206,7 @@ export const Home: React.FC = () => {
                 src={cat.image}
                 alt={cat.name}
                 containerClassName="absolute inset-0 w-full h-full"
-                className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700 ease-out"
+                className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700 ease-out rounded-[20px]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent" />
 

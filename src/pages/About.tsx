@@ -29,7 +29,7 @@ export const About: React.FC = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-600/30 text-blue-300 text-xs font-bold uppercase tracking-wider mb-6 backdrop-blur-md">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Concept by SH Web Studio</span>
+            <span>Concept by Zenvex</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black font-heading text-white tracking-tight leading-tight">
@@ -37,7 +37,7 @@ export const About: React.FC = () => {
           </h1>
 
           <p className="mt-6 text-base sm:text-lg text-neutral-300 leading-relaxed">
-            UrbanCart is a fictional e-commerce concept created by <strong>SH Web Studio</strong> to demonstrate how a modern shopping experience can seamlessly combine product discovery, multi-dimensional filtering, wishlist persistence, dynamic cart calculation, and an interactive frontend checkout flow.
+            UrbanCart is a fictional e-commerce concept created by <strong>Zenvex</strong> to demonstrate how a modern shopping experience can seamlessly combine product discovery, multi-dimensional filtering, wishlist persistence, dynamic cart calculation, and an interactive frontend checkout flow.
           </p>
         </div>
       </section>
@@ -164,7 +164,7 @@ export const About: React.FC = () => {
             to="/contact"
             className="px-8 py-3.5 rounded-xl border border-neutral-300 dark:border-neutral-700 text-neutral-800 dark:text-neutral-200 text-sm font-semibold hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
           >
-            Contact SH Web Studio
+            Contact Zenvex
           </Link>
         </div>
       </section>
